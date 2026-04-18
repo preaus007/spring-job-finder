@@ -11,6 +11,10 @@ public interface JobAdvertisementDao extends JpaRepository<JobAdvertisement, Lon
 
 	List<JobAdvertisement> findByActiveTrue();
 
+	List<JobAdvertisement> findByEmployerIdAndActiveTrue( Long employerId );
+
+	List<JobAdvertisement> findAllByOrderByApplicationDeadlineAsc();
+
 	@Query( "SELECT j FROM JobAdvertisement j WHERE j.applicationDeadline = ?1" )
 	List<JobAdvertisement> findByApplicationDeadline( LocalDateTime deadline );
 }
