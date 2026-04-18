@@ -3,11 +3,10 @@ package com.touhed.hrm.core.utilities;
 public class SuccessResult extends Result {
 	
 	public SuccessResult() {
-		super(true);
+		super( true );
 	}
 
-	public SuccessResult(String message) {
-		super(true,message);
-		
+	public SuccessResult( String message ) {
+		super( true, message );
 	}
 }
