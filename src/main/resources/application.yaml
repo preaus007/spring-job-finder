@@ -38,8 +38,12 @@ logging:
 #  expiration: ${ACCESS_TOKEN_EXPIRATION}
 #  refresh-token-expiration: ${REFRESH_TOKEN_EXPIRATION}
 
-#springdoc:
-#  api-docs:
-#    enabled: true
-#  swagger-ui:
-#    path: /atpi-api-docs
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
