@@ -2,8 +2,7 @@
 
 ## Project Description
 
-Job Finder is a Spring Boot-based web service application designed for managing job postings, applications, employer and candidate information.  
-It follows the REST API architecture and implements **DTO**, **Request-Response Pattern**, **Validation**, and **Global Exception Handling**.
+Job Finder is a Spring Boot-based web service application designed for managing job postings, applications, employer and candidate information. It follows the REST API architecture and implements **DTO**, **Request-Response Pattern**, **Validation**, and **Global Exception Handling**.
 
 ---
 
